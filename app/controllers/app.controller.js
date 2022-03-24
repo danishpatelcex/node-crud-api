@@ -1,5 +1,6 @@
 const Article = require("../model/article.model.js");
 
+
 // Create and Save a new article
 exports.create = (req, res) => {
   const message = new Article({
